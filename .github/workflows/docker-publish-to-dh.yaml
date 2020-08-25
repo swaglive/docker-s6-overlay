@@ -13,8 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - "1.0"
-          - "2.0"
+          - "alpine-3.6"
+          - "alpine-3.7"
+          - "alpine-3.11"
     steps:
       # https://github.com/actions/checkout
       - name: Checkout
